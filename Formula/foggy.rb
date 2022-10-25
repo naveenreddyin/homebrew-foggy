@@ -6,6 +6,6 @@ class Foggy < Formula
   version "0.2.0"
 
   def install
-    bin.install "foggy"
+    bin.install "randog-cli" => "foggy"
   end
 end
